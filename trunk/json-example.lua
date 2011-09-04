@@ -1,3 +1,5 @@
+require'lua-spirit'
+
 --utility
 function ToString(obj)
 	local t = type(obj)
