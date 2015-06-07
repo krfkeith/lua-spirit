@@ -1,0 +1,3 @@
+An implementation of a BNF-like parser-generator using Lua, suitable for for low-to-medium complexity tasks (Uses built in number / string / ident matching rules, it's not possible to construct a new kind of primitive such as a regex that requires more complex lexicographical rules concerning whitespace and what not) Has a comprehensive capturing scheme which allows construction of complicated data structures with little code code other than the grammar definition itself.
+
+Example JSON and XML parsers implemented using the code are provided with the package> That should give you an idea of what it's capable of. Parsing a non-trivial programming language with it would likely turn out to be difficult, but for handling well formatted data and small DSLs it works well.
